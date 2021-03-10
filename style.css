@@ -103,3 +103,32 @@ a {
 }
 
 /* The end header */
+
+.all_something_new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  font-size: 17px;
+  color: #959595;
+}
+
+
+.something_title {
+  font-size: 40px;
+  padding-left: 70px;
+  color: #222626;
+}
+
+.something_subtitle_left {
+  padding: 15px 70px;
+}
+
+.something_subtitle_right {
+  padding: 15px 15px;
+
+}
+.something_right {
+  padding-top: 120px;
+}
