@@ -88,9 +88,7 @@ a {
 }
 
 .main__title {
-  margin-top: 300px;
-  margin-left: 240px;
-  padding-left: 15px;
+  padding: 320px 300px;
   color: white;
 }
 
@@ -110,6 +108,7 @@ a {
   align-items: center;
   padding-top: 120px;
   padding-bottom: 50px;
+  padding-left: 233px;
   font-size: 17px;
   color: #959595;
 }
@@ -219,3 +218,5 @@ a {
   padding: 50px 40px;
   position: relative;
 }
+
+/* The end galerry */
