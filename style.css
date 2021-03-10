@@ -130,3 +130,92 @@ a {
 .something_right {
   padding-top: 120px;
 }
+
+/* The end section start something new */
+
+.main_galerry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  color: white;
+  font: "Open Sans", sans-serif;
+}
+
+.design_quality {
+  padding-bottom: 35px;
+  font-size: 22px;
+}
+
+.main_text_main_galerry {
+  padding-bottom: 40px;
+}
+
+.bottom_text_main_galerry {
+  font-weight: bold;
+}
+
+.bottom_text_main_galerry_ {
+  font-weight: bold;
+  padding-top: 56px;
+}
+
+.main_text_main_galerry__ {
+  padding-bottom: 24px;
+}
+
+.first_block {
+  background-image: url(Rectangle1.png);
+  width: 280px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.second_block {
+  background-image: url(Rectangle2.png);
+  width: 280px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.third_block {
+  background-image: url(Box\ Small.png);
+  width: 280px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.fourth_block {
+  background-image: url(Rectangle4.png);
+  width: 200px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.fifth_block {
+  background-image: url(Box\ Large.png);
+  width: 640px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.sixth_block {
+  background-image: url(Rectangle6.png);
+  width: 280px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.seventh_block {
+  background-image: url(Box\ Large2.png);
+  width: 200px;
+  height: 175px;
+  padding: 50px 40px;
+  position: relative;
+}
