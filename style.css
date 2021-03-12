@@ -246,3 +246,25 @@ a {
 }
 
 /* The end section details */
+
+.container_img {
+  position: relative;
+}
+.section_full_image {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  width: 35%;
+  padding: 120px 320px;
+}
+
+.container_img .more_power {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+
+.container_img p {
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+/* The end section more power img */
