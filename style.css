@@ -264,26 +264,41 @@ a {
 
 /* The end section details */
 
-.container_img {
+.all_img {
   background-image: url(Full\ Image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.section_full_image {
 
+.container__full_img {
+  display: flex;
+  align-items: center;
+  min-height: 850px;
+}
+
+ .section_full_image {
+  max-width: 500px;
   color: rgb(255, 255, 255);
+  max-height: 0;
 }
-
-.container_img .more_power {
+.title_img {
   font-size: 60px;
-  padding-bottom: 40px;
 }
 
-.container_img p {
+.subtitle_img {
   font-size: 17px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+} 
+
+.footer_img {
+  font-size: 16px;
 }
+
 /* Not end section more power img */
 
-.section_reason_to_get {
+/* .section_reason_to_get {
   background-color: #82ca9c;
   padding-left: 320px;
-}
+} */
