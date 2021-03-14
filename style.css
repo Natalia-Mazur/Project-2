@@ -147,94 +147,46 @@ a {
 
 /* The end section start something new */
 
-.main_galerry {
+
+.gallery {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  
   justify-content: flex-end;
-  color: white;
-  font: "Open Sans", sans-serif;
 }
 
-.design_quality {
-  padding-bottom: 35px;
-  font-size: 22px;
-}
-
-.main_text_main_galerry {
-  padding-bottom: 40px;
-}
-
-.bottom_text_main_galerry {
-  font-weight: bold;
-}
-
-.bottom_text_main_galerry_ {
-  font-weight: bold;
-  padding-top: 56px;
-}
-
-.main_text_main_galerry__ {
-  padding-bottom: 24px;
-}
-
-.first_block {
-  background-image: url(Rectangle1.png);
-  width: 280px;
-  height: 175px;
-  padding: 50px 40px;
+.gallery__item {
   position: relative;
+  max-height: 278px;
 }
 
-.second_block {
-  background-image: url(Rectangle2.png);
-  width: 280px;
-  height: 175px;
-  padding: 50px 40px;
-  position: relative;
+.gallery__item--img {
+  width: 100%;
+  }	
+
+.gallery__item--all_h3 {
+  font: 30px "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 25px 0 35px 0;
 }
 
-.third_block {
-  background-image: url(Box\ Small.png);
-  width: 280px;
-  height: 175px;
-  padding: 50px 40px;
-  position: relative;
+.gallery_item--all_div {
+  padding: 30px;
+  color: #FFF;
+  position: absolute;
+}
+.gallery__item--all_p {
+  color: #FFF;
+  font: 13px;
+  font-weight: 400;
+}
+.gallery__item--all_h4 {
+  font: 14px "Open Sans", sans-serif;
+  font-weight: 700;
+  padding: 50px 0;
 }
 
-.fourth_block {
-  background-image: url(Rectangle4.png);
-  width: 200px;
-  height: 175px;
-  padding: 50px 40px;
-  position: relative;
-}
-
-.fifth_block {
-  background-image: url(Box\ Large.png);
-  width: 640px;
-  height: 175px;
-  padding: 50px 40px;
-  position: relative;
-}
-
-.sixth_block {
-  background-image: url(Rectangle6.png);
-  width: 280px;
-  height: 175px;
-  padding: 50px 40px;
-  position: relative;
-}
-
-.seventh_block {
-  background-image: url(Box\ Large2.png);
-  width: 200px;
-  height: 175px;
-  padding: 50px 40px;
-  position: relative;
-}
-
-/* The end galerry */
+/* The end gallery */
 
 .all__details {
   padding-top: 90px;
@@ -319,7 +271,7 @@ padding-bottom: 40px;
 .reasons {
   display: flex;
   flex-direction: row;
-}
+} 
 
 .title_reasons {
   font-size: 18px;
@@ -334,3 +286,4 @@ padding-right: 22px;
 .reasonos_item {
 flex: 1;
 }
+
