@@ -291,15 +291,85 @@ flex: 1;
 
 .buying {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 100px 0 150px 0;
+  background-color: #f6f7fa;
 }
 
-.title__buying p {
-  margin: 0 15px 0 15px;
+.legacy__buying--button {
   display: inline-flex;
   background-color: #e1e1e1;
   border-radius: 3px;
+}
+
+.legacy__buying {
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+.title__buying {
+  padding-right: 100px;
+}
+
+.title__buying h3 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+.title__buying h4 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  max-width: 500px;
+  font-weight: normal;
+}
+
+.buying__team {
+  background-color: white;
+  padding: 50px 60px;
+}
+
+.buy__now--9 {
+  background-color: #82ca9c;
+  border: none;
+  padding: 20px 35px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buying__team h3 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.buying__team h4 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  max-width: 500px;
+  font-weight: normal;
+}
+
+.most__popular {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #bd8cbf;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+.buy__now--18 {
+  background-color: #82ca9c;
+  border: none;
+  padding: 20px 35px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
 }
