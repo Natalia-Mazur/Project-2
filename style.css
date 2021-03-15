@@ -373,3 +373,99 @@ flex: 1;
   font-weight: bold;
   cursor: pointer;
 }
+
+/* The end section buy */
+
+.eight {
+  background-color: #192431;
+  color: #b1b1b1;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 0 125px 0;
+}
+
+.footers__left {
+  padding: 70px 0 50px 0;
+  font: 13px "Open Sans", sans-serif;
+
+}
+.footers__left p {
+  padding: 15px 0;
+  max-width: 500px;
+}
+
+
+.getin-touch {
+  font-weight: 700;
+  font-weight: bold;
+}
+
+.all__leftsite {
+list-style: none;
+display: flex;
+flex-direction: row;
+flex: 1;
+padding-top: 50px;
+}
+
+.all__leftsite--title p {
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-weight: bold;
+}
+
+.all__leftsite--title li {
+  padding: 5px 50px 5px 0 ;
+}
+
+.footers__right {
+  font: 13px "Open Sans", sans-serif;
+  padding: 70px 200px 0 20px;
+}
+
+.footers__right p {
+font: 12px;
+font-weight: 400;
+}
+
+.input-wrapper__row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.input-wrapper__row p {
+color: #57697f;
+}
+
+.input-wrapper p {
+padding: 15px 0;
+font-weight: bold;
+}
+
+.input-wrapper__row--p {
+  padding: 15px 0;
+  font: 12px "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #57697f;
+}
+input {
+  width: 100%;
+  border: none;
+}
+
+.icon {
+  display: flex;
+  padding: 10px;
+  background-color: #82ca9c;
+}
+
+.fa-check {
+  background-color: #82ca9c;
+  color: white;
+  font-size: 24px;
+}
