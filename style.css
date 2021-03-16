@@ -151,7 +151,6 @@ a {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  
   justify-content: flex-end;
 }
 
@@ -162,6 +161,7 @@ a {
 
 .gallery__item--img {
   width: 100%;
+
   }	
 
 .gallery__item--all_h3 {
@@ -171,9 +171,11 @@ a {
 }
 
 .gallery_item--all_div {
-  padding: 30px;
+  top: 8%;
+  padding-left: 30px;
   color: #FFF;
   position: absolute;
+  max-width: 250px;
 }
 .gallery__item--all_p {
   color: #FFF;
@@ -183,7 +185,7 @@ a {
 .gallery__item--all_h4 {
   font: 14px "Open Sans", sans-serif;
   font-weight: 700;
-  padding: 50px 0;
+  padding-top: 40px;
 }
 
 /* The end gallery */
@@ -374,6 +376,12 @@ flex: 1;
   cursor: pointer;
 }
 
+.icons {
+color:#c5c5c5;
+font-size: 25px;
+padding: 10px;
+}
+
 /* The end section buy */
 
 .eight {
@@ -395,7 +403,6 @@ flex: 1;
   padding: 15px 0;
   max-width: 500px;
 }
-
 
 .getin-touch {
   font-weight: 700;
@@ -426,8 +433,8 @@ padding-top: 50px;
 }
 
 .footers__right p {
-font: 12px;
-font-weight: 400;
+  font: 12px;
+  font-weight: 400;
 }
 
 .input-wrapper__row {
@@ -439,12 +446,12 @@ font-weight: 400;
 }
 
 .input-wrapper__row p {
-color: #57697f;
+  color: #57697f;
 }
 
 .input-wrapper p {
-padding: 15px 0;
-font-weight: bold;
+  padding: 15px 0;
+  font-weight: bold;
 }
 
 .input-wrapper__row--p {
@@ -453,9 +460,16 @@ font-weight: bold;
   font-weight: 400;
   color: #57697f;
 }
+
+.text {
+  font-size: 20px;
+}
 input {
   width: 100%;
   border: none;
+  font-size: 20px;
+  outline-style: none;
+  font: "Open Sans", sans-serif;
 }
 
 .icon {
@@ -469,3 +483,4 @@ input {
   color: white;
   font-size: 24px;
 }
+/* The end section footer */
